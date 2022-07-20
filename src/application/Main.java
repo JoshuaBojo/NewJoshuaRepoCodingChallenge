@@ -7,6 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 
 //hello bojo
+//hi
 
 public class Main extends Application {
 	@Override
@@ -14,6 +15,7 @@ public class Main extends Application {
 		try {
 			VBox root= new VBox();
 			root.getChildren().add(new Label("Mahtaab's Label"));
+			root.getChildren().add(new Label("Mahtaab's Branch in josh file"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Joshua's project");
